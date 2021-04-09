@@ -1,7 +1,7 @@
 import { useReducer, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "/positions.json";
+const API_URL = "https://cors-fetc.herokuapp.com/https://jobs.github.com/positions.json";
 
 function reducer(state, action) {
   switch (action.type) {
@@ -23,7 +23,6 @@ export default function useFetchJobs(params, page) {
 
   useEffect(() => {
     const cancelToken1 = axios.CancelToken.source();
-    dispatch({type: "loading"});
     axios.get(API_URL, {
       cancelToken: cancelToken1.token,
       params: {...params, page: page, markdown: true}
