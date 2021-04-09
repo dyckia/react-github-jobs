@@ -40,5 +40,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://dyckia.github.io/react-github-jobs"
+  "homepage": "http://dyckia.github.io/react-github-jobs",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
