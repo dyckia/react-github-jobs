@@ -1,7 +1,7 @@
 import { useReducer, useEffect } from "react";
 import axios from "axios";
 
-const API_URL = "https://jobs.github.com/positions.json";
+const API_URL = "/positions.json";
 
 function reducer(state, action) {
   switch (action.type) {
