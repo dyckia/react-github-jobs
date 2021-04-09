@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-github-jobs/static/js/main.af3f59e4.chunk.js",
-    "main.js.map": "/react-github-jobs/static/js/main.af3f59e4.chunk.js.map",
+    "main.js": "/react-github-jobs/static/js/main.660ee4b6.chunk.js",
+    "main.js.map": "/react-github-jobs/static/js/main.660ee4b6.chunk.js.map",
     "runtime-main.js": "/react-github-jobs/static/js/runtime-main.87000089.js",
     "runtime-main.js.map": "/react-github-jobs/static/js/runtime-main.87000089.js.map",
     "static/js/2.204fe159.chunk.js": "/react-github-jobs/static/js/2.204fe159.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.87000089.js",
     "static/js/2.204fe159.chunk.js",
-    "static/js/main.af3f59e4.chunk.js"
+    "static/js/main.660ee4b6.chunk.js"
   ]
 }
